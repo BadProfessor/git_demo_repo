@@ -1,0 +1,39 @@
+git --version // checks the version
+git clone git@github.com:BadProfessor/git_demo_repo.git // clones the repo
+https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows // W commands
+git status // gives the status
+git add . // all the untracked files
+git commit -m 'tile of the message' -m 'description box' // commit with messages
+git push // pushing into remote depository
+ssh-keygen -t rsa -b 4096 -C "someemail@test.com" //generating a key localy, -t type of encryption, -b strength of encryption, -C add your email
+
+We then enter the key and the passphrase for it
+
+/Users/user/.ssh/id_rsa // default directory for the ssh keys
+
+testkey // private key, without pub
+testkey.pub // public key
+
+cat testkey.pub // printing out the public key
+pbcopy < ~/testkey.pub // copy the public key
+
+//Add your SSH key to the ssh-agent
+eval "(ssh-agent -s)"
+~/.ssh/config
+//Add the Host info to the file
+ssh-add -K ~/.ssh/id_rsa
+
+git push origin master // push the changes, location of the git repository, and which branch
+
+git init // initialize the git repository
+git remote add origin git@github.com:BadProfessor/git_demo_repo.git // adds the origin
+git remote -v //shows the remote repositories
+
+git push -u origin master // the -u means upstream and that we by default push to a certain branch
+
+git add .   //adds all files in the directory we're working in
+git add -A  //adds all the files including in subdirectories
+
+// Master Branch
+// Feature Branch
+// Hot Fix Branch
