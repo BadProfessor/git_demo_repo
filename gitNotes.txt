@@ -37,3 +37,7 @@ git add -A  //adds all the files including in subdirectories
 // Master Branch
 // Feature Branch
 // Hot Fix Branch
+
+git branch // shows the branches
+git checkout // switching branches
+git checkout -b feature //adding a new branch named feature
