@@ -11,7 +11,12 @@ https://unix.stackexchange.com/questions/409407/how-can-i-list-all-user-names-an
 https://www.javatpoint.com/steps-to-write-and-execute-a-shell-script
 https://www.youtube.com/watch?v=QZJ1drMQz1A
 https://askubuntu.com/questions/1183766/bash-script-not-creating-file-from-crontab
+https://www.pluralsight.com/blog/tutorials/linux-add-user-command
 https://www.tecmint.com/generate-verify-check-files-md5-checksum-linux/
+https://www.howtoforge.com/linux-md5sum-command/
+https://stackoverflow.com/questions/27776665/echo-output-to-terminal-within-function-in-bash
+https://unix.stackexchange.com/questions/254868/use-md5sum-to-verify-file-in-a-script
+https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/
 
 
 compgen -u
