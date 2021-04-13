@@ -29,12 +29,5 @@ pollinate:/var/cache/pollinate
 mysql:/nonexistent
 ubuntu:/home/ubuntu
 testUserName1:/home/testUserName1
-testUserName2:/home/testUserName2
-testUserName3:/home/testUserName3
-testUserName4:/home/testUserName4
-testUserName5:/home/testUserName5
-testUserName6:/home/testUserName6
-testUserName7:/home/testUserName7
-testUserName8:/home/testUserName8
 systemd-timesync:/
 nobody:/nonexistent
