@@ -1,0 +1,35 @@
+Friend's advice:
+
+You can echo, grep and awk print, the pipe it into a md5sum
+Add it to a bash executable file and add it to crontab
+
+Use and if/else statement see if they match or not with previous entries.
+Then convert to md5sum.
+
+
+https://unix.stackexchange.com/questions/409407/how-can-i-list-all-user-names-and-or-home-directories
+https://www.javatpoint.com/steps-to-write-and-execute-a-shell-script
+https://www.youtube.com/watch?v=QZJ1drMQz1A
+https://askubuntu.com/questions/1183766/bash-script-not-creating-file-from-crontab
+https://www.tecmint.com/generate-verify-check-files-md5-checksum-linux/
+
+
+compgen -u
+
+getent passwd | cut -d: -f6                 //folders
+getent passwd | cut -d: -f1                 //users
+getent passwd {0..65535} | cut -d: -f1,6    //prints out the directories and the users, assuming UIDs stop at 65535
+getent passwd {0..65535} | md5sum | cut -d: -f1,6 //md5sum from above
+
+chmod +x testBash.sh // makes an executable file
+./testFolder/testBash.sh //runs the file
+
+crontab -e //opens up the crontab, editing with nano
+select-editor //changes the editor
+crontab -l //reads out the crontab file
+cat /tmp/test.txt //read out the output file
+* * * * * bash ~/environment/testFolder/testBash.sh > /tmp/test.txt
+
+sudo useradd testUserName
+
+md5sum -c ~/environment/testFolder/testOutput.md5
