@@ -29,5 +29,6 @@ pollinate:/var/cache/pollinate
 mysql:/nonexistent
 ubuntu:/home/ubuntu
 testUserName1:/home/testUserName1
+testUserName2:/home/testUserName2
 systemd-timesync:/
 nobody:/nonexistent
