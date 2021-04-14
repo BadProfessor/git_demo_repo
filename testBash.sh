@@ -1,8 +1,6 @@
 #!/bin/bash
 chdate=`date +"%d/%m/%y-%T"`
 
-#need to create some files here
-
 getent passwd {0..65535} | cut -d: -f1,6 > ~/environment/testFolder/current_users.txt
 
 if md5sum --status -c ~/environment/testFolder/current_sum.md5; then
